@@ -12,6 +12,7 @@ class ProductAdmin(admin.ModelAdmin):
         )
     
     ordering = ('sku',)
+    summernote_fields = ('description',)
 
 
 class CategoryAdmin(admin.ModelAdmin):
